@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #1F2937;
+}
+
+
+.header-container {
+    background-color: #6943FF;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.input-field{
+    width: 150px;
+}
+
+.value-input {
+    margin-top: 30px;
+    background-color: transparent;
+    height: 105px;
+    width: 100%;
+    border: #B295FF solid 2px;
+    border-radius: 5px;
+    font-size: 5.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    display: block;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5733cc;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.results-container {
+    display: grid;
+    place-items: center;
+}
+
+.results-section {
+    background-color: #273549;
+    padding: 35px 70px;
+    max-width: 600px;
+    width: 90%;
+    margin: 20px 10px;
+}
+
+.result-titles {
+    color: #CCC1FF;
+    text-align: center;
+    font-weight: 500;
+}
+
+.metric-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
